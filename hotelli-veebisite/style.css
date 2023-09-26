@@ -1,0 +1,19 @@
+.nav-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: orange;
+    padding: 20px 40px;
+    margin: 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+}
+
+.nav-button:hover {
+    background-color: rgb(73, 73, 73);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f7c08a;
+}
