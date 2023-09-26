@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+.header-main {
+    margin-bottom: 75px;
+    background-color: #222;
+    background: no-repeat center center;
+    background-size: cover;
+    background-image: url("https://picsum.photos/1980/1080/");
+}
+
+.headingtext {
+    color: #fff;
+    padding: 150px 0;
+}
