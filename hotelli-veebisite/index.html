@@ -4,43 +4,44 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="HTML">
-    <meta name="author" content="Jürmo Mihhailov">
-    <title>Voco Hotell home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotell | Avaleht</title>
     <link rel="stylesheet" href="style.css">
 </head>
 </head>
 
 <body>
-    <!--NavBar-->
-    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-sm">
-        <div class="container-fluid mr-0 ml-0">
-            <h3 class="justify-content-center mb-0 text-light">VOCO</h3>
-            <div class="">
+    <header>
+        <!-- Navbar -->
+        <nav id="navbar">
+            <div class="container">
+                <h1><a href="index.html">VOCO</a></h1>
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link nav-button p-4">Avaleht</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link nav-button p-4">Kirjeldus</a></li>
-                    <li class="nav-item"><a href="Contact.html" class="nav-link nav-button p-4">Kontakt</a></li>
+                    <li><a href="index.html" class="current">Avaleht</a></li>
+                    <li><a href="about.html">Kirjeldus</a></li>
+                    <li><a href="Contact.html">Kontakt</a></li>
                 </ul>
             </div>
+        </nav>
+        <!-- Showcase -->
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1><span class="text-primary">Tere Tulemast</span> VOCO Hotelli!</h1>
+                    <p>Text text text, text text. Text text text, text text. Text text text, text text. Text text text, text text. Text text text, text text.</p>
+                    <a class="btn" href="about.html">Rohkem meist</a>
+                </div>
+            </div>
         </div>
-    </nav>
-    <!--Image-->
-    <header class="">
-
+        <!-- info -->
+        <section id="info" class="bg-dark">
+            <div class="info-img"></div>
+            <div class="info-content">
+                <h2><span class="text-primary">Ajalugu</span></h2>
+                <p>Text text text, text text. Text text text, text text. Text text text, text text. Text text text, text text. Text text text, text text.</p>
+                <a class="btn btn-light" href="about.html">Loe rohkem</a>
+            </div>
+        </section>
     </header>
-    <!--Main content-->
-    <div class="">
-
-    </div>
-    <!--Footer-->
-    <footer>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
 </body>
-
 </html>
