@@ -161,3 +161,15 @@ a {
     padding: 0.5rem 0;
     border-bottom: #444 dotted 1px;
 }
+
+/* clients */
+#clients .items {
+    display: flex;
+    justify-content: center;
+}
+
+#clients .items img{
+    display: block;
+    width: 66%;
+    margin: auto;
+}
