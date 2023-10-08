@@ -32,6 +32,13 @@ a {
     padding: 1rem;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* buttons */
 .btn {
     display: inline-block;
     padding: 0.5rem 2rem;
@@ -48,6 +55,15 @@ a {
     background: #7ab436;
 }
 
+.btn-dark {
+    background: #333;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background: #444;
+}
+
 /* Background */
 .bg-light {
     background: #f4f4f4;
@@ -57,6 +73,11 @@ a {
 .bg-dark {
     background: #333;
     color: #fff;
+}
+
+.bg-primary {
+    background: #93cb52;
+    color: #333;
 }
 
 /* Navbar */
@@ -172,4 +193,35 @@ a {
     display: block;
     width: 66%;
     margin: auto;
+}
+
+/* contact */
+#contact {
+    display: flex;
+}
+
+#contact .contact-form,
+#contact .contact-map {
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.5rem;
+}
+
+#contact .contact-form .form-group label {
+    display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+}
+
+#contact .contact-form .form-group input:focus,
+#contact .contact-form .form-group textarea:focus {
+    outline: none;
+    border: #333 solid 1px;
 }
